@@ -5,7 +5,6 @@ My solutions to the programming exercises of *Planning and Decision Making for A
 
 | Exercise | Topic | Code |
 | --- | --- | --- |
-| [01 Hello world](ex01-hello-world) | Warm-up: lexicographic comparison of two sequences | [`ex1.py`](ex01-hello-world/ex1.py) |
 | [02 Graph search](ex02-graph-search) | Depth-first, breadth-first and iterative-deepening search | [`algo.py`](ex02-graph-search/algo.py) |
 | [03 Informed graph search](ex03-informed-graph-search) | Uniform-cost search and A\* | [`algo.py`](ex03-informed-graph-search/algo.py) |
 | [05 Dubins path](ex05-dubins-path) | Dubins and Reeds-Shepp paths for a car | [`algo.py`](ex05-dubins-path/algo.py) |
