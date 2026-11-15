@@ -1,23 +1,27 @@
 # Robot Planning and Decision Making
 
 My solutions to the programming exercises of *Planning and Decision Making for Autonomous Robots*
-(PDM4AR), ETH Zurich, autumn 2022. The exercises were solved individually in Python, on top of the
-course's exercise framework.
+(PDM4AR), ETH Zurich, autumn 2022. Solved individually in Python.
 
-## My solutions
-
-| Exercise | Topic | My code |
+| Exercise | Topic | Code |
 | --- | --- | --- |
-| 01 | Hello world | [`ex1.py`](pdm4ar-exercises/src/pdm4ar/exercises/ex01/ex1.py) |
-| 02 | Graph search: depth-first, breadth-first, iterative deepening | [`algo.py`](pdm4ar-exercises/src/pdm4ar/exercises/ex02/algo.py) |
-| 03 | Informed graph search: uniform-cost search, A\* | [`algo.py`](pdm4ar-exercises/src/pdm4ar/exercises/ex03/algo.py) |
-| 05 | Dubins and Reeds-Shepp paths for a car | [`algo.py`](pdm4ar-exercises/src/pdm4ar/exercises/ex05/algo.py) |
-| 06 | Collision checking: geometric primitives and a path collision checker | [`collision_primitives.py`](pdm4ar-exercises/src/pdm4ar/exercises/ex06/collision_primitives.py), [`collision_checker.py`](pdm4ar-exercises/src/pdm4ar/exercises/ex06/collision_checker.py) |
-| 07 | Optimization (graded): voyage planning as a mixed-integer linear program (PuLP) | [`ex07.py`](pdm4ar-exercises/src/pdm4ar/exercises/ex07/ex07.py) |
-| 08 | Driving games (graded final): sampling-based path planner and path-following controller for a car | [`agent.py`](pdm4ar-exercises/src/pdm4ar/exercises/ex08/agent.py) |
+| [01 Hello world](ex01-hello-world) | Warm-up: lexicographic comparison of two sequences | [`ex1.py`](ex01-hello-world/ex1.py) |
+| [02 Graph search](ex02-graph-search) | Depth-first, breadth-first and iterative-deepening search | [`algo.py`](ex02-graph-search/algo.py) |
+| [03 Informed graph search](ex03-informed-graph-search) | Uniform-cost search and A\* | [`algo.py`](ex03-informed-graph-search/algo.py) |
+| [05 Dubins path](ex05-dubins-path) | Dubins and Reeds-Shepp paths for a car | [`algo.py`](ex05-dubins-path/algo.py) |
+| [06 Collision checking](ex06-collision-checking) | Geometric collision primitives and a path collision checker | [`collision_primitives.py`](ex06-collision-checking/collision_primitives.py), [`collision_checker.py`](ex06-collision-checking/collision_checker.py) |
+| [07 Optimization](ex07-optimization) | Graded: voyage planning as a mixed-integer linear program (PuLP) | [`ex07.py`](ex07-optimization/ex07.py) |
+| [08 Driving games](ex08-driving-games) | Graded final: sampling-based path planner and path-following controller for a car | [`agent.py`](ex08-driving-games/agent.py) |
 
 Exercise 04 (dynamic programming) was not completed.
 
-Everything else in [`pdm4ar-exercises/`](pdm4ar-exercises) is the course framework
-([PDM4AR/exercises](https://github.com/PDM4AR/exercises), GPL-3.0). Setup instructions are on the
-course website: [pdm4ar.github.io/exercises](https://pdm4ar.github.io/exercises/).
+## Running the code
+
+The files plug into the course's exercise framework, which provides the problem setups, simulation and
+visualization. They were written for its 2022 version,
+[PDM4AR/exercises at `89e8039`](https://github.com/PDM4AR/exercises/tree/89e8039462ae80e2a3aefbb7010f062d897b2d80).
+To run one, copy it into `src/pdm4ar/exercises/exNN/` there and follow the course's setup instructions.
+The full problem statements are in that version's
+[`docs/`](https://github.com/PDM4AR/exercises/tree/89e8039462ae80e2a3aefbb7010f062d897b2d80/docs) folder.
+
+The code builds on the course's exercise templates, which are licensed under GPL-3.0 ([`LICENSE`](LICENSE)).

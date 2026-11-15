@@ -1,5 +1,0 @@
-**
-!setup.py
-!src
-src/*.egg-info
-!requirements*
